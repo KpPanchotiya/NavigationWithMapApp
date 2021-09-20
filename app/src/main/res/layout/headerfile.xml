@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:orientation="vertical"
+    android:gravity="left|bottom"
+    android:padding="10dp"
+    android:background="@color/teal_700"
+    >
+    <ImageView
+        android:id="@+id/NH_image"
+        android:src="@drawable/ic_welcome_user"
+        android:layout_width="70dp"
+        android:layout_height="70dp"/>
+    <TextView
+        android:id="@+id/NH_tv_Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome User"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

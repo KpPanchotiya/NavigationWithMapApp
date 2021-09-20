@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Nevigation_Map_App</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="navigation_open">Open Navigation Drawer</string>
+    <string name="navigation_close">Close Navigation Drawer</string>
+</resources>

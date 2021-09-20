@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/Nhome"
+            android:icon="@drawable/ic_home"
+            android:title="Home"></item>
+        <item android:id="@+id/Nfav"
+            android:icon="@drawable/ic_favorite"
+            android:title="Favourite"></item>
+        <item android:id="@+id/Nprofile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile"></item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Support">
+            <menu>
+                <item android:id="@+id/Ncall"
+                    android:icon="@drawable/ic_call"
+                    android:title="Call"></item>
+
+                <item android:id="@+id/Nmsg"
+                    android:icon="@drawable/ic_message"
+                    android:title="Message"></item>
+            </menu>
+        </item>
+    </group>
+    <item android:title="Share">
+        <menu>
+            <item android:id="@+id/Nshare"
+                android:icon="@drawable/ic_share"
+                android:title="Share"></item>
+        </menu>
+    </item>
+</menu>
